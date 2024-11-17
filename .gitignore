@@ -1,0 +1,5 @@
+*.pt
+yolov9-qat
+*.mp4
+*.jpeg
+*.onnx

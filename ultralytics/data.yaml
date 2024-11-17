@@ -1,0 +1,13 @@
+train: /home/jetson/Documents/PKM/ultralytics/datasets/train/images
+val: /home/jetson/Documents/PKM/ultralytics/datasets/val/images
+test: /home/jetson/Documents/PKM/ultralytics/TTV_new/test/images
+
+nc: 21
+names: ['Biogesic Paracetamol', 'Decolgen', 'Intunal F', 'Intunal Kaplet', 'Inza', 'Mixagrip', 'Mixagrip Flu dan Batuk', 'Neozep Forte', 'Oskadon SP', 'Oskadon Sakit Kepala', 'Pamol Paracetamol', 'Panadol Cold Flu', 'Panadol Extra Paracetamol', 'Panadol Paracetamol', 'Paramex', 'Paramex Flu dan Batuk', 'Paramex Nyeri Otot', 'Poldan Mig', 'Sanaflu', 'Ultraflu', 'Ultraflu Extra']
+
+roboflow:
+  workspace: obat
+  project: dataset-smartvision-baru
+  version: 19
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/obat/dataset-smartvision-baru/dataset/19
